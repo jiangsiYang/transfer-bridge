@@ -29,7 +29,6 @@ public class TransferService implements ITransferService {
     public BufferedImage transferImage(String url) {
 
         Map<String, String> paramMap = new HashMap();
-//        paramMap.put("Referer", "https://mp.weixin.qq.com/s?__biz=MzI4Njg5MDA5NA==&mid=2247484235&idx=1&sn=4c3b6d13335245d4de1864672ea96256&chksm=ebd7424adca0cb5cb26eb51bca6542ab816388cf245d071b74891dd3f598ccd825f8611ca20c&token=1834317504&lang=zh_CN&scene=21");
         paramMap.put("Referer", "\"\"");
         paramMap.put("User-Agent", "Opera/9.80 (Windows NT 6.0) Presto/2.12.388 Version/12.14");
 
