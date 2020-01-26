@@ -15,7 +15,7 @@ public class TransferImageController {
     @Autowired
     private ITransferService transferService;
 
-    @PostMapping("/")
+    @PostMapping("/url")
     public BufferedImage recordActShare(String url) {
         return transferService.transferImage(url);
     }
